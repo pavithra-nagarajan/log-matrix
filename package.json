@@ -2,6 +2,7 @@
   "name": "log-matrix",
   "displayName": "log_matrix",
   "description": "check",
+  "publisher": "kyntrack",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
@@ -10,7 +11,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:log-matrix.helloWorld"
+    "onStartupFinished"
   ],
   "main": "./extension.js",
   "contributes": {
