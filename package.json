@@ -4,6 +4,7 @@
     "description": "check",
     "publisher": "kyntrack",
     "version": "0.2.0",
+    "repository": "https://github.com/keynecleetus/log-matrix",
     "engines": {
         "vscode": "^1.72.0"
     },
