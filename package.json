@@ -3,7 +3,7 @@
     "displayName": "log_matrix",
     "description": "check",
     "publisher": "kyntrack",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "repository": "https://github.com/keynecleetus/log-matrix",
     "engines": {
         "vscode": "^1.72.0"
@@ -32,7 +32,7 @@
         "hooks": {
             "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
             "pre-commit": "echo \"[Husky] pre-commit\"",
-            "post-commit": "echo \"[Husky] post-commit\""
+            "post-commit": "echo \"[Husky] post-commit\" && git log -1 --shortstat"
         }
     },
     "devDependencies": {
