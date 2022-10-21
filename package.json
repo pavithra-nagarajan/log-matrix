@@ -32,7 +32,7 @@
         "hooks": {
             "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
             "pre-commit": "echo \"[Husky] pre-commit\"",
-            "post-commit": "echo \"[Husky] post-commit- pavithra!!\" && git log -1 --shortstat"
+            "post-commit": "echo \"[Husky] post-commit- pavithra-123\" && git log -1 --shortstat"
         }
     },
     "devDependencies": {
