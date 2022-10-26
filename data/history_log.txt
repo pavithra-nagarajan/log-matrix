@@ -1,7 +1,7 @@
-commit 8f5d73febcc4291af3666324b0fe90beb12001ad
+commit a38755af1797c296e8cd853d88a3a0f47ecffd29
 Author: pavithra-nagarajan <pavithra.n@revature.com>
-Date:   Wed Oct 26 11:21:36 2022 +0530
+Date:   Wed Oct 26 11:24:45 2022 +0530
 
-    commit -2
+    husky integrated
 
- 2 files changed, 6 insertions(+), 6 deletions(-)
+ 3 files changed, 5 insertions(+), 12 deletions(-)

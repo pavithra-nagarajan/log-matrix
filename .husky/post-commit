@@ -3,7 +3,7 @@
 
 echo pavithra
 
-# Get log and store it into text file modified -12356
+# Get log and store it into text file modified -12356789
 #get data
 git log -1 --shortstat > data/history_log.txt
 #Send store file to RevPro
