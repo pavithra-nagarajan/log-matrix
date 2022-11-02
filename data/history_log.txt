@@ -1,7 +1,7 @@
-commit 69b3c65480c29d5098f13382a47342d32a43b131
+commit 9e2b2fc12ce7b475ecb6be4020282157dd6fe8bd
 Author: pavithra-nagarajan <pavithra.n@revature.com>
-Date:   Wed Oct 26 11:29:58 2022 +0530
+Date:   Wed Oct 26 11:50:52 2022 +0530
 
-    commit 26/10
+    yml edited
 
  2 files changed, 5 insertions(+), 5 deletions(-)
