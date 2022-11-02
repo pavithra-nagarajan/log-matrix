@@ -20,9 +20,24 @@
             {
                 "command": "log-matrix.helloWorld",
                 "title": "Hello World"
+            },
+            {
+                "command": "8b10c920-585d-4852-9f98-9fb9587bc135",
+                "title": "gitExtension: Api Key check"
+            },
+            {
+                "command": "gitExtension.apikey",
+                "title": "gitExtension: Api Key"
             }
-        ]
-    },
+        ],
+        "configuration": {
+            "gitExtension.api_key": {
+              "type": "string",
+              "description": "Defaults to value from ~/.gitExtension.cfg, unless running in browser.",
+              "scope": "application"
+            }
+          }
+            },
     "scripts": {
         "lint": "eslint .",
         "pretest": "npm run lint",
